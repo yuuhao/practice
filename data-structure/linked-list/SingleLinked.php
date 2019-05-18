@@ -101,11 +101,17 @@ class SingleLinked
         }
     }
 
+    public function addCloseNode($new,$data)
+    {
+
+    }
+
     public function delete($data)
     {
         $current = $this->find($data);
-        if($current ==null) {
-            echo "该节点不存在";die;
+        if ($current == null) {
+            echo "该节点不存在";
+            die;
         }
         $preNode = $this->findPre($data);
         if ($current && $preNode == null) {
@@ -121,10 +127,10 @@ class SingleLinked
 
 // 1->2->3->5
 
+//header xiaobei xiaoming dahai
+
 $linkList = new SingleLinked('header');
 $linkList->insert('header', '小明');
 $linkList->insert('', '大海');
 $linkList->insert('header', '小贝');
-$linkList->delete('header');
-$linkList->delete('小贝1');
 $linkList->display();
