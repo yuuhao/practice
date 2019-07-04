@@ -78,6 +78,12 @@ class SingleLinked
 
     }
 
+    /**
+     * @param $data
+     * @param $new
+     * 在$data 节点后插入$new 节点
+     * @return bool
+     */
     public function insert($data, $new)
     {
         $current = $this->find($data);
@@ -92,6 +98,9 @@ class SingleLinked
         return true;
     }
 
+    /**
+     * 显示链表所有节点
+     */
     public function display()
     {
         $current = $this->header;
@@ -99,11 +108,6 @@ class SingleLinked
             echo $current->data . "<br/>";
             $current = $current->next;
         }
-    }
-
-    public function addCloseNode($new,$data)
-    {
-
     }
 
     public function delete($data)
@@ -122,7 +126,26 @@ class SingleLinked
         }
     }
 
-
+    /**
+   * 判断一个链表是否有环
+   * 方案1：规定一个时间，循环1秒后，链表是否结束
+   * 方案2：使用set或者类set的数组，循环链表的时候将node节点数据和set中的数据进行对比，若有重复值则是有环
+   * 方案3：使用快慢两个指针，如果快指针追上了慢指针说明有环
+   */
+    public function isClose()
+    {
+        $slow = $this->header;
+        $fast = $this->header->next;
+        while (isset($fast->next)) {
+            if ($fast->data == $slow->data)
+                goto end;
+            $slow = $slow->next;
+            $fast = $fast->next->next;
+        }
+        return 0;
+        end:
+        return 1;
+    }
 }
 
 // 1->2->3->5
@@ -133,4 +156,11 @@ $linkList = new SingleLinked('header');
 $linkList->insert('header', '小明');
 $linkList->insert('', '大海');
 $linkList->insert('header', '小贝');
-$linkList->display();
+$linkList->insert('大海', '小红');
+// 制造有环单链表
+//$end = $linkList->end();
+//$end->next = $linkList->find('小贝');
+echo $linkList->isClose();
+
+
+

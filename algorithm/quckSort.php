@@ -10,36 +10,33 @@
 //快排，
 //abc
 /**
- * 快速排序
+ * 快速排序，使用递归思想，
+ * 选取一个初始值，其余值跟这个比较，分成左右两组
  * 时间复杂度 O(nlogn)
 */
 
-function test($a)
+function qucksort($arr)
 {
-    $count = count($a);
+    $count = count($arr);
     if ($count < 2) {
-        return $a;
+        return $arr;
     }
-    $base_item = $a[0];
-    $base = $left = $right = [];
-    for ($i = 0; $i < $count; $i++) {
-
-        if ($a[$i] < $base_item) {
-            $left[] = $a[$i];
-        } else if ($a[$i] > $base_item) {
-            $right[] = $a[$i];
+    $mid = $arr[0];
+    $left = $right = [];
+    for ($i = 1; $i < $count; $i++) {
+        if ($arr[$i] < $mid) {
+            $left[] = $arr[$i];
         } else {
-            $base[] = $a[$i];
+            $right[] = $arr[$i];
         }
-
     }
-    $left = test($left);
-    $right = test($right);
-    return array_merge($left, $base, $right);
+    $left = qucksort($left);
+    $right = qucksort($right);
+    return array_merge($left,[$mid],$right);
 
 }
 
 $a = [2, 1, 34, 3, 2, 7, 6, 8, 5, 10];
 
 
-
+print_r(qucksort($a));
