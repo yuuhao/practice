@@ -3,8 +3,6 @@
  * Created by PhpStorm.
  * User: yuhao
  * Date: 2019/7/8 最亮的靓仔, 魏无羡
- * Time: 23:13
- */
 
 /**
  * 循环二分查找
