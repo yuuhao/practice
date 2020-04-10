@@ -14,7 +14,6 @@
  * 选取一个初始值，其余值跟这个比较，分成左右两组
  * 时间复杂度 O(nlogn)
 */
-
 function qucksort($arr)
 {
     $count = count($arr);
