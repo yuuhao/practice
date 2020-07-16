@@ -98,6 +98,12 @@ class SingleLinked
         return true;
     }
 
+    public function add($data)
+    {
+        $current = $this->end();
+        $current->next = new Node($data);
+    }
+
     /**
      * 显示链表所有节点
      */
