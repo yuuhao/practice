@@ -6,6 +6,7 @@
  * Time: 22:20
  */
 
+namespace practice\data_structue\link_list;
 class Node
 {
     public $data;
@@ -127,7 +128,7 @@ class SingleLinked
         if ($current && $preNode == null) {
             $this->header = $current->next;
         } else {
-            $preNode->next = $current->next;
+            $preNode->next = $preNode->next->next;
             $current->next = null;
         }
     }
@@ -152,6 +153,81 @@ class SingleLinked
         end:
         return 1;
     }
+
+    /**
+     * 翻转单链表
+     */
+    public function rev()
+    {
+        //　想到的思路，　将链表循环出来放入ｐｈｐ数组中
+        // 将数组进行栈操作，然后取出后重新链接
+        $current = $this->header; //
+        $stock = []; // 栈
+        while ($current != null) {
+            array_unshift($stock, $current);
+            $current = $current->next;
+        }
+        $this->header = null;
+        $i = 0;
+        while ($i < count($stock)) {
+            if ($this->header == null) {
+                $current = $this->header = $stock[$i];
+            } else {
+                $current->next = $stock[$i];
+            }
+            $i++;
+        }
+    }
+    /**
+     * 翻转单链表2
+     * 妙解： 提前保持current 节点的下一节点
+     */
+    public function revGoods()
+    {
+        if ($this->header->next == null) return $this->header;
+        $pre = $this->header;
+        $pre->next = null;
+        $current = $this->header->next;
+        $next = null;
+
+        while ($current != null) {
+            $next = $current->next;
+            $current->next = $pre;
+            $pre = $current;
+            $current = $next;
+        }
+    }
+
+
+    /**
+     * 合并两个有序单链表
+     * @param $linkList1
+     * @param $linkList2
+     */
+    public function merge($linkList1, $linkList2)
+    {
+        // 前提两个有序的单链表
+        // 可以使用循环两个链表法解决
+        // 类似于两个有序数组的合并
+        
+    }
+
+    /**
+     * 删除　链表第ｎ个节点
+     */
+    public function deleteN()
+    {
+        // 循环变量找到第n个
+    }
+
+    /**
+     * 获取链表　中间节点
+     */
+    public function getMidNode()
+    {
+        //
+    }
+
 }
 
 // 1->2->3->5

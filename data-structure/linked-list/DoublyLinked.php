@@ -1,4 +1,5 @@
 <?php
+namespace practice\data_structue\link_list;
 
 /**
  * 双向链表
