@@ -3,6 +3,8 @@
 
 class BinaryTree
 {
+    public int $pre = PHP_INT_MIN;
+
     function preOrder($root)
     {
         if ($root == null) return;
@@ -13,10 +15,20 @@ class BinaryTree
 
     function inOrder($root)
     {
-        if ($root == null) return;
-        $this->inOrder($root->left);
-        print $root;
-        $this->inOrder($root->right);
+        // 中序遍历并且判断是否时合格的搜索树
+        // 搜索树， 左节点小于父节点，优子节点大于父节点
+        if ($root == null) return true;
+
+        if (!$this->inOrder($root->left)) {
+            return false;
+        }
+
+        if ($root->val <= $this->pre) {
+            return false;
+        }
+        $this->pre = $root->val;
+
+        return $this->inOrder($root->right);
     }
 
     function postOrder($root)

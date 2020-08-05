@@ -26,6 +26,7 @@ function mergeSort($arrr)
 }
 
 
+// 两个有序数组的合并，复杂度（O(n)）
 function mergeArray($x, $y)
 {
     if (empty($x) && empty($y)) {
