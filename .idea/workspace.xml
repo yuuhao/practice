@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b579bf0f-4b86-4050-b5fe-9900fba4b139" name="Default" comment="哨兵数组元素查找，和链表实现">
+      <change afterPath="$PROJECT_DIR$/test/二叉树非递归遍历.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/mergeSort.php" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/mergeSort.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structure/heap.php" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/heap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/BinaryTree.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/BinaryTree.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,12 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="practice" />
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -30,10 +23,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/laragon/www/practice/data-structure/hong_bao.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -69,6 +62,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -155,6 +149,8 @@
       <workItem from="1596123764451" duration="739000" />
       <workItem from="1596255488456" duration="802000" />
       <workItem from="1596257499423" duration="45000" />
+      <workItem from="1597158730498" duration="1374000" />
+      <workItem from="1597762032564" duration="384000" />
     </task>
     <task id="LOCAL-00001" summary="algorithm and data structure">
       <created>1558022119500</created>
@@ -188,7 +184,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="algorithm and data structure" />
@@ -230,10 +226,11 @@
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
     <state width="767" height="219" key="GridCell.Tab.0.right/0.0.1920.1026@0.0.1920.1026" timestamp="1589467195534" />
-    <state x="879" y="404" width="571" height="380" key="NewPhpClassDialog" timestamp="1595513674314">
-      <screen x="0" y="0" width="1920" height="1026" />
+    <state x="879" y="425" width="571" height="502" key="NewPhpClassDialog" timestamp="1597158748386">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="879" y="404" width="571" height="380" key="NewPhpClassDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1595513674314" />
+    <state x="879" y="425" width="571" height="502" key="NewPhpClassDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1597158748386" />
     <state x="771" y="433" key="NewPhpFileDialog" timestamp="1594995287023">
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
