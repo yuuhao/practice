@@ -13,7 +13,7 @@ function find(array $a, $key)
     if ($a == null || count($a) < 1) {
         return -1;
     }
-
+    // test
     $count = count($a);
 
     $i = 0;
