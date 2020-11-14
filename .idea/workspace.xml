@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b579bf0f-4b86-4050-b5fe-9900fba4b139" name="Default" comment="哨兵数组元素查找，和链表实现">
-      <change afterPath="$PROJECT_DIR$/test/二叉树非递归遍历.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structure/proxy/IUserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/structure/proxy/IUserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/structure/proxy/Proxy.php" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/structure/proxy/Proxy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/LRUCache.php" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/LRUCache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/SingleLinked.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/SingleLinked.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +33,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/laragon/www/practice/data-structure/hong_bao.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dnmp" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -150,7 +156,17 @@
       <workItem from="1596255488456" duration="802000" />
       <workItem from="1596257499423" duration="45000" />
       <workItem from="1597158730498" duration="1374000" />
-      <workItem from="1597762032564" duration="384000" />
+      <workItem from="1597762032564" duration="595000" />
+      <workItem from="1597926322288" duration="599000" />
+      <workItem from="1598160158420" duration="9050000" />
+      <workItem from="1598369843876" duration="1564000" />
+      <workItem from="1598452640829" duration="1314000" />
+      <workItem from="1598533946429" duration="408000" />
+      <workItem from="1598681378797" duration="34000" />
+      <workItem from="1598681453880" duration="4619000" />
+      <workItem from="1598764957078" duration="1760000" />
+      <workItem from="1598948193607" duration="869000" />
+      <workItem from="1599141817073" duration="1806000" />
     </task>
     <task id="LOCAL-00001" summary="algorithm and data structure">
       <created>1558022119500</created>
@@ -194,6 +210,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="哨兵数组元素查找，和链表实现" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1198" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1598685647975">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1198" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1598685647975" />
+    <state x="859" y="266" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598369996092">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="859" y="266" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598369996092" />
+    <state x="690" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598686495123">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598686495123" />
+    <state x="1193" y="337" key="#com.jetbrains.php.refactoring.move.PhpMoveClassDialog#0" timestamp="1598194527047">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1193" y="337" key="#com.jetbrains.php.refactoring.move.PhpMoveClassDialog#0/0.0.1920.1080@0.0.1920.1080" timestamp="1598194527047" />
     <state x="703" y="364" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595518155955">
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
@@ -206,35 +238,25 @@
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
     <state x="191" y="82" key="DiffContextDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1595261882445" />
-    <state x="747" y="265" key="FileChooserDialogImpl" timestamp="1596257541044">
-      <screen x="0" y="0" width="1920" height="1026" />
+    <state x="747" y="279" key="FileChooserDialogImpl" timestamp="1599143281946">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="747" y="265" key="FileChooserDialogImpl/0.0.1920.1026@0.0.1920.1026" timestamp="1596257541044" />
-    <state width="767" height="219" key="GridCell.Tab.0.bottom" timestamp="1589467195534">
-      <screen x="0" y="0" width="1920" height="1026" />
-    </state>
-    <state width="767" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1026@0.0.1920.1026" timestamp="1589467195534" />
-    <state width="767" height="219" key="GridCell.Tab.0.center" timestamp="1589467195533">
-      <screen x="0" y="0" width="1920" height="1026" />
-    </state>
-    <state width="767" height="219" key="GridCell.Tab.0.center/0.0.1920.1026@0.0.1920.1026" timestamp="1589467195533" />
-    <state width="767" height="219" key="GridCell.Tab.0.left" timestamp="1589467195533">
-      <screen x="0" y="0" width="1920" height="1026" />
-    </state>
-    <state width="767" height="219" key="GridCell.Tab.0.left/0.0.1920.1026@0.0.1920.1026" timestamp="1589467195533" />
-    <state width="767" height="219" key="GridCell.Tab.0.right" timestamp="1589467195534">
-      <screen x="0" y="0" width="1920" height="1026" />
-    </state>
-    <state width="767" height="219" key="GridCell.Tab.0.right/0.0.1920.1026@0.0.1920.1026" timestamp="1589467195534" />
-    <state x="879" y="425" width="571" height="502" key="NewPhpClassDialog" timestamp="1597158748386">
+    <state x="747" y="279" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1599143281946" />
+    <state x="758" y="197" width="571" height="502" key="NewPhpClassDialog" timestamp="1598686096676">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="879" y="404" width="571" height="380" key="NewPhpClassDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1595513674314" />
-    <state x="879" y="425" width="571" height="502" key="NewPhpClassDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1597158748386" />
-    <state x="771" y="433" key="NewPhpFileDialog" timestamp="1594995287023">
-      <screen x="0" y="0" width="1920" height="1026" />
+    <state x="758" y="197" width="571" height="502" key="NewPhpClassDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598686096676" />
+    <state x="771" y="456" key="NewPhpFileDialog" timestamp="1598682748644">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="771" y="433" key="NewPhpFileDialog/0.0.1920.1026@0.0.1920.1026" timestamp="1594995287023" />
+    <state x="771" y="456" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598682748644" />
+    <state x="461" y="184" key="SettingsEditor" timestamp="1598191719096">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1598191719096" />
     <state x="559" y="243" key="Vcs.Push.Dialog.v2" timestamp="1595261960035">
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
@@ -243,9 +265,5 @@
       <screen x="0" y="0" width="1920" height="1026" />
     </state>
     <state x="735" y="427" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1026@0.0.1920.1026" timestamp="1595261859137" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589813097815">
-      <screen x="0" y="0" width="1920" height="1026" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1026@0.0.1920.1026" timestamp="1589813097815" />
   </component>
 </project>

@@ -42,11 +42,22 @@ class SingleLinked
         return $current;
     }
 
+    /**
+     * 反转链表
+     *              pre curr  next
+     *  null   A---->B-> c    ->d  ->e->f
+     * A<-B<-c<-d<-e<-f
+     */
     public function rev()
     {
+        $pre = null;
         $current = $this->header;
-        while ($current->next != null) {
 
+        while ($current->next != null) {
+            $next = $current->next;
+            $current->next = $pre;
+            $pre = $current;
+            $current = $next;
         }
 
     }
